@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha dos Dragões</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>⚔️ Batalha dos Dragões 🐉</h1>
+        <form id="battle-form">
+            <label for="energiaA">Energia Inicial do Dragão A:</label>
+            <input type="number" id="energiaA" placeholder="Ex: 50" required>
+
+            <label for="energiaB">Energia Inicial do Dragão B:</label>
+            <input type="number" id="energiaB" placeholder="Ex: 60" required>
+
+            <label for="itensA">Itens Mágicos do Dragão A (separados por vírgula):</label>
+            <input type="text" id="itensA" placeholder="Ex: 10,20,30">
+
+            <label for="itensB">Itens Mágicos do Dragão B (separados por vírgula):</label>
+            <input type="text" id="itensB" placeholder="Ex: 15,25">
+
+            <button type="button" id="calcular">Calcular Vencedor</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
